@@ -146,9 +146,8 @@ plt.show()
 
 ### A. **Residuals**
 
-$$
-\text{Residual} = \text{Actual} - \text{Predicted}
-$$
+{Residual} = {Actual} - {Predicted}
+
 
 * Residuals are the **tiny differences** between what the model guessed and what actually happened.
 * **Smaller residuals** mean better predictions.
@@ -161,9 +160,8 @@ You guessed your friend will score 85, but she scores 90. The **residual = -5**.
 
 ### B. **Sum of Squared Errors (SSE)**
 
-$$
-\text{SSE} = \sum (y_i - \hat{y}_i)^2
-$$
+{SSE} = \sum (y_i - \hat{y}_i)^2
+
 
 * It **adds up all residuals, squared**.
 * Squaring makes all errors positive and penalizes large mistakes.
@@ -260,9 +258,6 @@ print("R-squared:", r2)
 
 ---
 
-Sure! Here's the section rewritten as a **Markdown table**:
-
----
 
 ## 9. Which Metrics Are Most Commonly Used and Why?
 
