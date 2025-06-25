@@ -146,29 +146,36 @@ plt.show()
 
 ### A. **Residuals**
 
-{Residual} = {Actual} - {Predicted}
+$$
+\text{Residual} = \text{Actual} - \text{Predicted}
+$$
 
+* **Residuals** are the small differences between the true value and the value predicted by the model.
+* They tell us **how far off** our predictions are from the actual values.
+* The closer the residuals are to **zero**, the better the model has performed.
 
-* Residuals are the **tiny differences** between what the model guessed and what actually happened.
-* **Smaller residuals** mean better predictions.
-
-### Analogy:
-
-You guessed your friend will score 85, but she scores 90. The **residual = -5**. That’s how wrong you were.
+> **Smaller residuals = better predictions**
 
 ---
 
 ### B. **Sum of Squared Errors (SSE)**
 
-{SSE} = \sum (y_i - \hat{y}_i)^2
+$$
+\text{SSE} = \sum (y_i - \hat{y}_i)^2
+$$
+
+Where:
+
+* $y_i$: actual value
+* $\hat{y}_i$: predicted value
+
+**Explanation:**
+
+* The **SSE** adds up all the **squared residuals**.
+* **Squaring** makes all errors positive and **amplifies large mistakes**.
+* This metric is the foundation of **OLS (Ordinary Least Squares)** regression — it tries to **minimize the SSE** to get the best-fitting model.
 
 
-* It **adds up all residuals, squared**.
-* Squaring makes all errors positive and penalizes large mistakes.
-
-### Analogy:
-
-SSE is like the **total penalty** for all your prediction mistakes — the bigger the misses, the more you pay.
 
 ---
 
